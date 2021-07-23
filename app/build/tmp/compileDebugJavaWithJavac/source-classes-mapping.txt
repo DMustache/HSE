@@ -1,0 +1,8 @@
+ru/nobird/hse2021/sample/BuildConfig.java
+ ru.nobird.hse2021.sample.BuildConfig
+ru/nobird/hse2021/sample/databinding/ItemHeaderBinding.java
+ ru.nobird.hse2021.sample.databinding.ItemHeaderBinding
+ru/nobird/hse2021/sample/databinding/ItemTextBinding.java
+ ru.nobird.hse2021.sample.databinding.ItemTextBinding
+ru/nobird/hse2021/sample/databinding/ActivityMainBinding.java
+ ru.nobird.hse2021.sample.databinding.ActivityMainBinding
