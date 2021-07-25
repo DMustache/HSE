@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">REVIEW</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="name">User New</string>
+    <string name="about_project_header">О проекте</string>
+    <string name="project_info">…</string>
+    <string name="skill0">…</string>
+    <string name="skill0_date">…</string>
+    <string name="skill1">…</string>
+    <string name="skill2_date">…</string>
+    <string name="skills_filter_skills">Навыки</string>
+    <string name="username">Дмитрий</string>
+    <string name="user_class">11</string>
+    <string name="github_link">Github</string>
+    <string name="skill2" />
+    <string name="skill3_date" />
+    <string name="skill3" />
+    <string name="skill1_date" />
+</resources>
