@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/skill0"
+        android:layout_width="300dp"
+        android:layout_height="32dp"
+        android:padding="8dp"
+        android:text="@string/skill0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/skill0"
+        android:text="@string/skill0_date"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/skill1"
+        android:layout_width="300dp"
+        android:layout_height="32dp"
+        android:padding="8dp"
+        android:text="@string/skill1"
+        app:layout_constraintTop_toBottomOf="@+id/skill0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skill0"
+        app:layout_constraintStart_toEndOf="@+id/skill0"
+        android:text="@string/skill2_date"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/skill2"
+        android:layout_width="300dp"
+        android:layout_height="32dp"
+        android:padding="8dp"
+        android:text="@string/skill2"
+        app:layout_constraintTop_toBottomOf="@+id/skill1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skill1"
+        app:layout_constraintStart_toEndOf="@+id/skill1"
+        android:text="@string/skill3_date"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/skill3"
+        android:layout_width="300dp"
+        android:layout_height="32dp"
+        android:padding="8dp"
+        android:text="@string/skill3"
+        app:layout_constraintTop_toBottomOf="@+id/skill2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skill2"
+        app:layout_constraintStart_toEndOf="@+id/skill2"
+        android:text="@string/skill1_date"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
